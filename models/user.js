@@ -5,15 +5,15 @@ const Schema = mongoose.Schema;
 
 
 const userSchema = new Schema({
-    firstName: {
+    firstname: {
         type: String,
         default: ''
     },
-    lastName: {
+    lastname: {
         type: String,
         default: ''
     },
-        admin: {
+    admin: {
         type: Boolean,
         default: false
     }
